@@ -4,11 +4,11 @@ on: push
 
 jobs:
     first_job:
-         runs-on:
-            steps:
-                - name: welcome message
-                  run: echo "hello world like always haha"
-                - name: list files
-                  run: ls
-                - name: read files
-                  run: cat README.md      
+        runs-on:
+        steps:
+        - name: welcome message
+          run: echo "hello world like always haha"
+        - name: list files
+          run: ls
+        - name: read files
+          run: cat README.md      
